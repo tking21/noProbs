@@ -1,0 +1,20 @@
+Package: noProbs
+Type: Package
+Title: Identify problematic or irrectular nodes in phylogeny for compartive anaylsis of continuous trait
+data
+Version: 1.0.0
+Author: c(person("King", "Teisha", role = c("aut", "cre")), person("Brown", "Jeremy", role = c("cre", "ctr")),
+Maintainer: Teisha King <tking21@lsu.edu>
+Description: Package utilizes parmetirc bootstrapping and phylogenetic independent contrasts to identify 
+nodes in a phylogeny that could be problematic for comparative analysis. Most comparative analysis rely 
+on Brownian Motion (BM) or Ornstein Uhlenbeck (OU) models of evolution. If closely related or sister 
+species diverge in their trait values, models using BM or OU process can lead to misinterpreted results. 
+This package is intended to highlight nodes that the user should be cautious of while performing comparative 
+anaylsis of continuous traits.
+License: MIT
+Imports: 
+    ape, gieger 
+Suggests: 
+    testthat, knitr, roxygen2
+Encoding: UTF-8
+LazyData: true

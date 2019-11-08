@@ -15,4 +15,4 @@
 #'  @export
 
 
-nodelabels(, 6, pch=19, col = 'red')
+#nodelabels(, 6, pch=19, col = 'red')
